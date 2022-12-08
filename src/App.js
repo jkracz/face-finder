@@ -1,5 +1,5 @@
 import './App.css';
-import { Component, React } from 'react';
+import { Component, React, useState } from 'react';
 
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
@@ -25,6 +25,22 @@ const initialState = {
     joined: ""
   }
 }
+
+const App = () => {
+  const [input, setInput] = useState("");
+  const [imageUrl, setImageUrl] = useState("");
+  const [box, setBox] = useState({});
+  const [route, setRoute] = useState("signin");
+  const [isSignedIn, setIsSignedIn] = useState(false);
+  const [user, setUser] = useState({
+    id: "",
+    name: "",
+    email: "",
+    entries: 0,
+    joined: ""
+  });
+}
+
 class App extends Component {
   constructor() {
     super();
