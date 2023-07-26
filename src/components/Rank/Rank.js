@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 
 const Rank = ({name, entries}) => {
-  useEffect(() => {
-    console.log(entries);
-  }, [entries]);
+  // useEffect(() => {
+  //   console.log(entries);
+  // }, [entries]);
   
   return (
     <div>
