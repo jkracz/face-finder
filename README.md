@@ -2,6 +2,8 @@
 
 Face Finder is a unique application that identifies all the faces present in an image. Register for an account, sign in, provide an image URL and let the magic happen!
 
+![Screenshot](./public/screenshot.png)
+
 ## 🔍 Features 🔍
 
 - **User Registration and Sign-In**: Securely register and log in to your account.
